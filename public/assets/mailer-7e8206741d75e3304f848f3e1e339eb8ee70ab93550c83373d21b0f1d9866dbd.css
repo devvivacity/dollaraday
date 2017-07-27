@@ -1,0 +1,855 @@
+/* line 4, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+body,
+.body {
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: #f7f7f7;
+}
+
+/* line 11, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+body > table {
+  background: #f7f7f7;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 16, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+  .mobile-block {
+    display: block !important;
+  }
+
+  /* line 17, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+  .mobile-hide {
+    display: none !important;
+  }
+
+  /* line 18, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+  .mobile-padding {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 20px !important;
+  }
+}
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.p0 {
+  padding: 0px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.py0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.px0, .newsletter__footer {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pt0 {
+  padding-top: 0px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pb0 {
+  padding-bottom: 0px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pl0 {
+  padding-left: 0px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pr0 {
+  padding-right: 0px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.p1 {
+  padding: 10px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.py1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.px1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pt1 {
+  padding-top: 10px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pb1 {
+  padding-bottom: 10px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pl1 {
+  padding-left: 10px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pr1 {
+  padding-right: 10px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.p2 {
+  padding: 20px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.py2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.px2, .newsletter__header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pt2 {
+  padding-top: 20px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pb2 {
+  padding-bottom: 20px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pl2 {
+  padding-left: 20px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pr2 {
+  padding-right: 20px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.p3 {
+  padding: 30px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.py3, .newsletter__footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.px3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pt3 {
+  padding-top: 30px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pb3 {
+  padding-bottom: 30px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pl3 {
+  padding-left: 30px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pr3 {
+  padding-right: 30px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.p4 {
+  padding: 40px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.py4, .newsletter__header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.px4 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pt4 {
+  padding-top: 40px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pb4 {
+  padding-bottom: 40px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pl4 {
+  padding-left: 40px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pr4 {
+  padding-right: 40px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.p5 {
+  padding: 50px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.py5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.px5 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pt5 {
+  padding-top: 50px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pb5 {
+  padding-bottom: 50px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pl5 {
+  padding-left: 50px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pr5 {
+  padding-right: 50px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.p6 {
+  padding: 60px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.py6 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.px6 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pt6 {
+  padding-top: 60px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pb6 {
+  padding-bottom: 60px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pl6 {
+  padding-left: 60px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.pr6 {
+  padding-right: 60px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.m0 {
+  margin: 0px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.my0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mx0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mt0 {
+  margin-top: 0px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mb0 {
+  margin-bottom: 0px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.ml0 {
+  margin-left: 0px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mr0 {
+  margin-right: 0px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.m1 {
+  margin: 10px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.my1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mx1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mt1 {
+  margin-top: 10px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mb1 {
+  margin-bottom: 10px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.ml1 {
+  margin-left: 10px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mr1 {
+  margin-right: 10px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.m2 {
+  margin: 20px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.my2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mx2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mt2 {
+  margin-top: 20px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mb2 {
+  margin-bottom: 20px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.ml2 {
+  margin-left: 20px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mr2 {
+  margin-right: 20px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.m3 {
+  margin: 30px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.my3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mx3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mt3 {
+  margin-top: 30px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mb3 {
+  margin-bottom: 30px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.ml3 {
+  margin-left: 30px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mr3 {
+  margin-right: 30px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.m4 {
+  margin: 40px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.my4 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mx4 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mt4 {
+  margin-top: 40px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mb4 {
+  margin-bottom: 40px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.ml4 {
+  margin-left: 40px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mr4 {
+  margin-right: 40px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.m5 {
+  margin: 50px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.my5 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mx5 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mt5 {
+  margin-top: 50px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mb5 {
+  margin-bottom: 50px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.ml5 {
+  margin-left: 50px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mr5 {
+  margin-right: 50px;
+}
+
+/* line 50, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.m6 {
+  margin: 60px;
+}
+
+/* line 54, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.my6 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* line 59, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mx6 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* line 64, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mt6 {
+  margin-top: 60px;
+}
+
+/* line 65, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mb6 {
+  margin-bottom: 60px;
+}
+
+/* line 66, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.ml6 {
+  margin-left: 60px;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mixins/_spacing.scss */
+.mr6 {
+  margin-right: 60px;
+}
+
+/* line 28, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.c-email-body {
+  color: #444;
+}
+
+/* line 32, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.d-i {
+  display: inline;
+}
+
+/* line 36, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.t-center {
+  text-align: center;
+}
+
+/* line 41, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.column, .nonprofit,
+.nonprofit__photo {
+  width: 100%;
+  max-width: 650px;
+}
+
+/* line 47, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.hidden {
+  font-size: 0;
+  display: none;
+}
+
+/* line 52, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.hidden-gray {
+  font-size: 0px;
+  color: #f7f7f7;
+}
+
+/* line 57, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__header {
+  font-family: "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  font-size: 24px;
+  color: black;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 67, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.divider {
+  width: 40px;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+/* line 75, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.divider--green {
+  background-color: #4fbb7e;
+}
+
+/* line 79, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__banner {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  color: #fff;
+  font-family: "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  background-image: url(//localhost/images/calendar-bg.gif);
+  background-repeat: repeat;
+  background-position: center center;
+  background-color: #4fbb7e;
+}
+
+/* line 91, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__banner__text {
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+
+/* line 97, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__banner__sentence {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 640px) {
+  /* line 105, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+  .newsletter__banner__sentence {
+    display: block !important;
+    margin-right: 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 20px !important;
+  }
+}
+/* line 113, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__footer {
+  text-align: center;
+}
+
+/* line 119, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__footer__text {
+  font-family: "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  color: #444;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 126, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__footer__text > p {
+  margin: 0;
+  padding: 0;
+  line-height: 16px;
+}
+
+/* line 132, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__footer__text > p + p {
+  margin-top: 10px;
+}
+
+/* line 136, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__footer__link {
+  color: #444;
+  white-space: nowrap;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 143, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit {
+  background: white;
+}
+
+/* line 148, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__photo {
+  width: 100%;
+  max-width: 650px;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* line 156, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 164, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__name {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-family: "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+/* line 172, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__link {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 177, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__blurb {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+/* line 188, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__description, .nonprofit__more {
+  font-family: "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444;
+}
+
+/* line 196, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 201, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__more {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* line 206, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.nonprofit__more, .nonprofit__more a {
+  color: #4fba7d;
+}
+
+/* line 211, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__buttons {
+  font-family: "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 30px;
+  color: black;
+  text-align: center;
+}
+
+/* line 220, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.stripe_receipt__text {
+  font-family: "Helvetica Neue", "Helvetica", "Calibri", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444;
+  padding: 0 20px;
+}
+
+/* line 229, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.newsletter__social {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+/* line 245, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button {
+  font-size: 14px;
+  line-height: 14px;
+  background: white;
+  border: solid 2px #4fba7d;
+  color: #4fba7d;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 10px 12px;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+/* line 258, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button > img {
+  margin-right: 5px;
+  vertical-align: -3px;
+}
+
+/* line 264, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button--twitter {
+  border-color: #00aced;
+  color: #00aced;
+  border-width: 0;
+}
+/* line 267, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button--twitter img {
+  margin-right: 0;
+}
+
+/* line 270, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button--facebook {
+  border-color: #3B5998;
+  color: #3B5998;
+  border-width: 0;
+}
+/* line 273, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button--facebook img {
+  margin-right: 0;
+}
+
+/* line 276, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button--favorite {
+  border-color: #F43F77;
+  background: #F43F77;
+  color: white;
+}
+
+/* line 280, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button--white {
+  background: white;
+  border-color: white;
+  color: #4fba7d;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+/* line 289, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button-followup {
+  max-width: 22em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+/* line 296, /home/viva/ror/dollaraday_template-master/app/assets/stylesheets/mailer.scss */
+.button-followup, .button-followup a {
+  color: #ababab;
+}
